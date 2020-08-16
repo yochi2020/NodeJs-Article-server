@@ -1,9 +1,10 @@
 const mongoose =require("mongoose")
 
 const article =  mongoose.Schema({
-    group_name:{type:String},
+    group_id:{type:String},
     title:{type:String},
     content:{type:String},
+    img_article:{type:String},
     date_time:{type:Date}
 })
 
